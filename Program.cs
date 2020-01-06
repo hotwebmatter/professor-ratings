@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace professor_ratings
 {
@@ -6,7 +7,7 @@ namespace professor_ratings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
         }
     }
 }
