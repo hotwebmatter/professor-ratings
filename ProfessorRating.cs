@@ -14,5 +14,11 @@ namespace professor_ratings
                        clarityRating;
         // read-only property for ID, per specification
         public double ProfessorID { get; }
+        // setters and getters for other properties
+        public double ProfessorName { set; get; }
+        public string Name { set; get; }
+        public double EasinessRating { set; get; }
+        public double HelpfulnessRating { set; get; }
+        public double ClarityRating { set; get; }
     }
 }
