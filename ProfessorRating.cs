@@ -20,5 +20,10 @@ namespace professor_ratings
         public double EasinessRating { set; get; }
         public double HelpfulnessRating { set; get; }
         public double ClarityRating { set; get; }
+        // compute and return overall rating average
+        public double RatingAverage()
+        {
+            return (easinessRating + helpfulnessRating + clarityRating) / 3;
+        }
     }
 }
