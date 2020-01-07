@@ -12,5 +12,7 @@ namespace professor_ratings
                        easinessRating,
                        helpfulnessRating,
                        clarityRating;
+        // read-only property for ID, per specification
+        public double ProfessorID { get; }
     }
 }
