@@ -6,5 +6,11 @@ namespace professor_ratings
 {
     class ProfessorRating
     {
+        // data members
+        private string professorName;
+        private double professorID,
+                       easinessRating,
+                       helpfulnessRating,
+                       clarityRating;
     }
 }
