@@ -16,10 +16,18 @@ namespace professor_ratings
         public double ProfessorID { get; }
         // setters and getters for other properties
         public double ProfessorName { set; get; }
-        public string Name { set; get; }
         public double EasinessRating { set; get; }
         public double HelpfulnessRating { set; get; }
         public double ClarityRating { set; get; }
+        // constructor
+        ProfessorRating()
+        {
+            professorID = 1234;
+            professorName = "Dr. Know";
+            easinessRating = 7;
+            helpfulnessRating = 9;
+            clarityRating = 10;
+        }
         // compute and return overall rating average
         public double RatingAverage()
         {
