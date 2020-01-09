@@ -20,7 +20,7 @@ namespace professor_ratings
         public double HelpfulnessRating { set; get; }
         public double ClarityRating { set; get; }
         // constructor
-        ProfessorRating()
+        public ProfessorRating()
         {
             professorID = 1234;
             professorName = "Dr. Know";
@@ -36,7 +36,8 @@ namespace professor_ratings
         // override base.ToString() method
         public override string ToString()
         {
-            return base.ToString();
+            string result = String.Format("****** Professor Ratings Table ******");
+            return result;
         }
     }
 }
