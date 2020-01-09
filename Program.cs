@@ -8,7 +8,7 @@ namespace professor_ratings
         static void Main(string[] args)
         {
             ProfessorRating aProfessor = new ProfessorRating();
-            WriteLine("Hello World!");
+            WriteLine(aProfessor.ToString());
         }
     }
 }

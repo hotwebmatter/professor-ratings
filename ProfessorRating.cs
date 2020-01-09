@@ -36,7 +36,8 @@ namespace professor_ratings
         // override base.ToString() method
         public override string ToString()
         {
-            string result = String.Format("****** Professor Ratings Table ******");
+            string result = String.Format("****** Professor Ratings Table ******\n");
+            result += String.Format("* {0, 16} {1 ,16} *\n", "Label:", "Value");
             return result;
         }
     }
