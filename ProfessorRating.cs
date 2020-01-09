@@ -33,5 +33,10 @@ namespace professor_ratings
         {
             return (easinessRating + helpfulnessRating + clarityRating) / 3;
         }
+        // override base.ToString() method
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }
