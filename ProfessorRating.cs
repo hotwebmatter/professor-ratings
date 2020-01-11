@@ -39,10 +39,10 @@ namespace professor_ratings
             string result = String.Format("****** Professor Ratings Table ******\n");
             result += String.Format("* {0, 16} {1 ,16} *\n", "Professor Name:", professorName);
             result += String.Format("* {0, 16} {1 ,16} *\n", "Professor ID:", professorID);
-            result += String.Format("* {0, 16} {1 ,16} *\n", "Rating Average:", RatingAverage());
-            result += String.Format("* {0, 16} {1 ,16} *\n", "Easiness:", easinessRating);
-            result += String.Format("* {0, 16} {1 ,16} *\n", "Helpfulness:", helpfulnessRating);
-            result += String.Format("* {0, 16} {1 ,16} *\n", "Clarity:", clarityRating);
+            result += String.Format("* {0, 16} {1 ,16:N0} *\n", "Rating Average:", RatingAverage());
+            result += String.Format("* {0, 16} {1 ,16:N0} *\n", "Easiness:", easinessRating);
+            result += String.Format("* {0, 16} {1 ,16:N0} *\n", "Helpfulness:", helpfulnessRating);
+            result += String.Format("* {0, 16} {1 ,16:N0} *\n", "Clarity:", clarityRating);
             result += String.Format("*************************************");
             return result;
         }
