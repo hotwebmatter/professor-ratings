@@ -19,7 +19,7 @@ namespace professor_ratings
         public double EasinessRating { set; get; }
         public double HelpfulnessRating { set; get; }
         public double ClarityRating { set; get; }
-        // constructor
+        // default constructor
         public ProfessorRating()
         {
             professorID = 1234;
@@ -27,6 +27,15 @@ namespace professor_ratings
             easinessRating = 7;
             helpfulnessRating = 9;
             clarityRating = 10;
+        }
+        // constructor with arguments
+        public ProfessorRating(string name, double id, double easiness, double helpfulness, double clarity)
+        {
+            professorID = id;
+            professorName = name;
+            easinessRating = easiness;
+            helpfulnessRating = helpfulness;
+            clarityRating = clarity;
         }
         // compute and return overall rating average
         public double RatingAverage()
