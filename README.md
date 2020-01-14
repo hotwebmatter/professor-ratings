@@ -13,4 +13,12 @@ $ dotnet bin/Debug/netcoreapp2.1/professor-ratings.dll
 *     Helpfulness:                9 *
 *         Clarity:               10 *
 *************************************
+****** Professor Ratings Table ******
+*  Professor Name:           Dr. No *
+*    Professor ID:             1408 *
+*  Rating Average:                6 *
+*        Easiness:                9 *
+*     Helpfulness:                5 *
+*         Clarity:                3 *
+*************************************
 ```
