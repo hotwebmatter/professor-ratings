@@ -9,7 +9,7 @@ namespace professor_ratings
         {
             ProfessorRating aProfessor = new ProfessorRating();
             WriteLine(aProfessor.ToString());
-            ProfessorRating bProfessor = new ProfessorRating("Dr. Will Shortz", 1408, 8, 9, 10);
+            ProfessorRating bProfessor = new ProfessorRating("Dr. No", 1408, 9, 5, 3);
             WriteLine(bProfessor.ToString());
         }
     }
